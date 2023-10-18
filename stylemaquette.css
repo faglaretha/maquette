@@ -1,0 +1,1251 @@
+
+.image {
+    position: relative;
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 100%; /* Ajustez la hauteur selon vos besoins */
+   background-image: url(header-bg-tires; .jpg)/* Remplacez 'votre-image.jpg' par le chemin de votre image */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajustez la taille de l'image selon vos besoins */
+}
+
+
+.image  {
+    content: "";
+   
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 101.4%;
+    height: 43.87%;
+    right: 100px;
+    
+  background-color:  rgb(72, 192, 152); /* Remplacez les valeurs RGBA par la couleur et l'opacité souhaitées */
+ /*  NOUVEAU CODE POUR VOIR SI IL Y AURA UNE PARTIE MOINS FONC2 padding: 20px; /* Espacement interne pour montrer une partie du fond */
+  background-clip: padding-box;
+    
+    margin-right: 30%;
+}
+
+.case{
+    
+        background-color: blue; /* Couleur de fond du conteneur */
+        padding: 60px; /* Espacement intérieur du conteneur */
+        border: 4px solid rgb(155, 45, 11); /* Bordure autour du conteneur */
+       border-bottom-right-radius: 100px; /* Coins arrondis pour le conteneur */
+        width: 70%; /* Ajustez la largeur selon vos besoins */
+        margin: 50px; /* Marge autour du conteneur */
+        
+        
+        transform: scale(0.3); 
+        
+            width: 80%; /* Ajustez la largeur du conteneur selon vos besoins */
+            transform: scale(0.8); /* Réduction du conteneur à 80% de sa taille d'origine */
+        
+            line-height: 0.5; /* Ajustez la valeur selon vos besoins */
+            position: relative;    
+            margin-left: 0.1px; /* Déplace le conteneur de 20 pixels vers la gauche */
+   
+        
+       
+     
+    }
+    
+    
+    
+    
+    h2 {
+        font-size: 60px; /* Taille de la police pour le titre */
+        margin-top: 0; /* Supprime la marge supérieure par défaut pour le titre */
+    }
+    
+    p {
+        font-size: 60pxpx; /* Taille de la police pour le texte d'information */
+    }
+    
+}
+
+.case{
+    line-height: 1; /* Ajustez la valeur selon vos besoins */
+    
+ width: 50%; /* Ajustez la largeur de la case selon vos besoins */
+   overflow: hidden; /* Évite que la case ne s'effondre en cas de débordement */
+   font-size: 50px; /*pour refuire la taille du texte*/
+   margin-left: 20px; /* Déplace le conteneur de 20 pixels vers la gauche 
+    
+
+
+.figure {
+    float: left; /* Aligne l'image à gauche */
+    width: 60%; /* Ajustez la largeur de l'image selon vos besoins */
+    line-height: 1; /* Ajustez la valeur selon vos besoins */
+    
+}
+
+
+.contenu {
+    margin-left: 35%;
+     font-size: 120%; /* Réduction de la taille du texte à 
+     80% de sa taille d'origine */
+    /* Espacement du texte par rapport à l'image */
+    /* Ajustez la valeur en fonction de la largeur de l'image et de l'espacement souhaité */
+}
+.un{
+    color: darkolivegreen;
+}
+.deux{
+    color: white;
+}
+
+.trois{
+    color: brown;
+}
+
+.texte-hors-case{
+   position: absolute;
+   bottom: 0;
+   
+   margin-right: 40px; /* Ajustez la position horizontale du texte en avant-plan */
+    
+    top: 30px; /* Ajustez la position verticale du texte en avant-plan */
+    size: 16px; /* Ajustez la taille de la police */
+   z-index: 4; /* Place le texte en avant-plan par rapport au conteneur */
+color: khaki;
+
+}
+
+body{
+   background-color: rgb(53, 245, 248);
+   background-image: url(header-bg-tires.jpg);
+  /* background-size: 50%;*/
+}
+.des{
+     color: orangered;
+}
+/*debut de premier petit conteneur*/
+.qualite{
+    
+        width: 100px; /* Ajustez la largeur du conteneur selon vos besoins */
+        height: 100px; /* Ajustez la hauteur du conteneur selon vos besoins */
+        background-color: #3498db; /* Couleur de fond du conteneur */
+        border: 1px solid #000; /* Bordure pour le conteneur (facultatif) */
+        text-align: center; /* Centre le texte horizontalement (facultatif) */
+        line-height: 3,2%; /* Centre le texte verticalement (facultatif) */
+        color: #fff; /* Couleur du texte (facultatif) */
+        overflow: hidden; /* Cache le débordement du contenu */
+        font-size: 10px; /* Ajustez la taille de la police selon vos besoins */
+    
+        background-image: url(car-white.png);
+        
+        background-size: 5% auto; /* Ajustez la taille de l'image (50% dans cet exemple) */
+
+
+        background-repeat: no-repeat;
+        width: 300px;
+        height: 50px;
+
+        display: flex;
+        align-items: center; /* Aligne le contenu verticalement au centrec*/
+    
+    
+        background-color: orangered;
+        
+}
+
+
+
+.tiret {
+    line-height: 3,2%;
+
+    margin: 30px; /* Ajoute un espacement horizontal entre l'image et le texte */
+}/*fin du premier petit conteneur*/
+/*POUR AUGMENTER LA HAUTEUR DU BODY*/
+body{
+    height: 2000px;
+}
+/*j"ai augmenté la hauteur de la page*/
+/*debut deuxieme conteneur*/
+.dispo{
+    width: 100px; /* Ajustez la largeur du conteneur selon vos besoins */
+    height: 100px; /* Ajustez la hauteur du conteneur selon vos besoins */
+    background-color: #3498db; /* Couleur de fond du conteneur */
+    border: 1px solid #000; /* Bordure pour le conteneur (facultatif) */
+    text-align: center; /* Centre le texte horizontalement (facultatif) */
+    line-height: 1.2; /* Centre le texte verticalement (facultatif) */
+    color: #fff; /* Couleur du texte (facultatif) */
+    overflow: hidden; /* Cache le débordement du contenu */
+    font-size: 10px; /* Ajustez la taille de la police selon vos besoins */
+
+    background-image: url(truck-white.png);
+    background-size: 15% auto; /* Ajustez la taille de l'image (50% dans cet exemple) */
+
+
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 50px;
+
+    display: flex;
+    align-items: center; /* Aligne le contenu verticalement au centrec*/
+
+
+    background-color: orangered;
+    m
+    
+}
+
+
+
+.tiret {
+margin: 30px; /* Ajoute un espacement horizontal entre l'image et le texte */
+
+} 
+/*je veux aligner les deux conteneur */
+
+.qualite, .dispo{
+    
+        display: inline-block; /* Les conteneurs sont alignés côte à côte */
+        width: 45%; /* Répartit l'espace en deux (ajustez au besoin) */
+        margin-right: 9px; /* Ajoute un espacement horizontal entre les conteneurs */
+        vertical-align: top; /* Alignement vertical au sommet (facultatif) */
+    
+    
+}
+/*fin de leurs alignement*/
+
+
+/*creation du premier conteneur transparent*/
+.conteneur1{
+    .conteneur-transparent {
+        background-color: hsla(0, 100%, 50%, 0.8); /* Couleur de fond moins transparente (rouge vif avec une opacité de 0,8) */
+        padding: 20px;
+    ;) /* Couleur de fond transparente (rouge vif avec une opacité de 0,5) */
+        padding: 20px;
+        color :/* Couleur du texte */
+    }
+    
+}
+.qualite{
+    float: right 10px;
+}
+/*floter vers la droite*/
+/*LA PARTIE BLANC*/
+footer {
+    background-color:white; /* Couleur de fond du pied de page */
+    color:teal; /* Couleur du texte du pied de page */
+    padding: 4px; /* Espacement intérieur du pied de page */
+    
+    text-align: justify; /* Centre le contenu horizontalement */
+
+    width: 1320px; /* Élargit le pied de la page*/
+    
+    
+    text-align: center;
+    height:318px; /* Augmente la hauteur du pied de page à 100 pixels */
+    left:- 60px;
+    /*width: 130%;*/
+    
+   right: 100px;
+}
+.case,.image,footer{
+padding: 10px;
+    margin-top: 10px; /* Ajoute de l'espace en haut de chaque div */
+   /* margin-bottom: 10px; /* Ajoute de l'espace en bas de chaque div */
+    text-align: center;
+}
+.case{
+    
+     
+       /* padding: 20px;
+        /*border-top-left-radius: 0; /* Aucun arrondi en haut à gauche */
+       /* border-top-right-radius: 1OOpx; /* Aucun arrondi en haut à droite */
+       /* border-bottom-left-radius: 0; /* Aucun arrondi en bas à gauche */
+       /* border-bottom-right-radius: 100px; /* Coin droit arrondi de 20 pixels */
+       padding: 10px;
+       border-radius: 100ox 10px 100px 100px; /* Coin droit complètement arrondi */
+       border-radius: 0 120px 120px 0; 
+       width: 305px; /* Largeur réduite */
+       
+        /* Hauteur réduite */
+       font-size: 10px;
+    }
+    
+    .figure{
+        float: left;
+        margin-right: 10px;
+       /* margin-right: 5px; /* Marge réduite */
+       margin-top: 10px; /* Marge supérieure pour déplacer l'image vers le bas */
+}
+.contenu {
+    overflow: hidden; /* Pour contenir les éléments flottants */
+}
+.conteneur-principal {
+    display: flex; /* Utilisation de Flexbox pour l'alignement horizontal */
+}
+
+.conteneur {
+    width: 100px;
+    border:-6rem;
+    border: thistle;
+    height: 100px;
+    /*background-color:turquoise;*/
+
+    margin-right: 10px; /* Espacement entre les conteneurs */
+}
+:/*.conteneur img {
+    border: 4px solid #000; /* Ajoute une bordure de 2px autour de l'image */
+    
+           /* padding: 10px;
+            margin: 10px;
+
+   /* width: 100%;
+    height: 100%;*/
+}
+
+
+
+
+
+/*.conteneur {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Couleur du texte */
+  /*  font-size: 16px; /* Taille de la police du texte */
+}
+
+.conteneur img {
+    border: 2px solid #000; /* Ajoute une bordure de 2px autour de l'image */
+    
+    max-width: 100%; /* Taille maximale de l'image pour s'adapter au cadre */
+    max-height: 100%; /* Taille maximale de l'image pour s'adapter au cadre */
+    border-radius: 20px;
+}
+.conteneur {
+    /*width: 220px;
+    height: 140px;
+    border-radius: 10px;
+    border: 1px solid #000; /* Ajoute une bordure de 2px autour de l'image*/
+   /* background-color: #e5e8eb;
+    margin-right: 10px;
+
+    margin: 20px ; /* Ajoute de la marge en haut et en bas du conteneur */
+    
+   /* margin: 10px 4; /* Ajoute un espace entre les cadres */
+    position: relative;
+   /*/* width: 80%; /* Ajustez la taille de l'image selon vos besoins */
+
+   /*un petit detail*/
+   border: 0.6px solid #494948; /* Bordure autour de l'image */
+   padding: 6px; /* Ajouter un espace entre la bordure et l'image */
+   margin-top: 20px;
+
+  margin-left: 10px;
+   width: 180px;
+   height: 170px;
+   border-radius: 10px;
+} 
+/*height: 80%; /* Ajustez */
+}
+
+.conteneur img {
+    border: 2px solid #000; /* Ajoute une bordure de 2px autour de l'image*/
+    width: 80%;
+    height: 80%;
+    
+   /* width: 80%; /* Ajustez la taille de l'image selon vos besoins */
+   /* height: 80%; /* Ajustez la taille de l'image selon vos besoins */
+}
+
+.texte-sur-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 17px;
+}
+.lot{
+    color: white;
+    background-color: turquoise;
+    left: 10px;
+    position: absolute;
+    top: 1px;/* Distance depuis le haut du conteneur */
+    left:0px; /* Distance depuis la gauche du conteneur */
+    color: #fff;
+    font-size: 16px;
+    margin: 2px;
+    padding-left: -4px;
+}
+.code-case {
+    border: 2px solid #ccc; /* Bordure de la case */
+    border-radius: 50px;
+    margin: 10px;
+   /* width: 290px;*/
+  height: 75px;
+    padding: 10px; /* Espacement interne de la case */
+    background-color: #e6834a; /* Couleur de fond de la case */
+    font-family: monospace; /* Police de caractères monospace pour le code */
+    font-size: 6px;
+    text-align: center;
+    color: white;
+}
+.code-container {
+    position: absolute;
+    bottom: 0.5px; /* Ajustez la valeur pour contrôler la distance par rapport au bas de la page */
+    width: 100%;
+  border-radius: 30px;
+    
+    flex-direction: row; /* Disposition horizontale des cases */
+
+}
+
+.code-case {
+
+    border-radius: 10px;
+   display: inline-block;
+}
+/*fieldset{
+    text-align: center;
+}
+/*.family{
+    background-image: url(bg-reviews.webp);
+}*/
+
+    .message {
+        /*width: 200px; /* Largeur de la case */
+        /*height: 40px; /* Hauteur de la case */
+       /* background-color: #ca670a; /* Couleur de fond de la case */
+     /*   border: 2px solid #ccc; /* Bordure de la case */
+      /*  padding: 10px; /* Espacement interne de la case */
+        color: #fff; /* Couleur du texte à l'intérieur de la case */
+        font-size: 16px; /* Taille de la police du texte */
+        text-align: center; /* Centrer le texte horizontalement */
+        border-radius: 100px;
+        background-position:50%;
+
+        width: 350px; /* Largeur de la case */
+        height: 15px; /* Hauteur de la case */
+        background-color: rgb(230, 109, 65); /* Couleur de fond de la case */
+        border: 0,6px solid black; /* Bordure de la case */
+        padding: 20px; /* Espacement interne de la case */
+        color: #fff; /* Couleur du texte à l'intérieur de la case */
+        font-size: 16px; /* Taille de la police du texte */
+        text-align: center; /* Centrer le texte horizontalement */
+        border-radius: 100px;
+        background-position:50%;
+
+        width: 350px; /* Largeur de la case */
+        height: 15px; /* Hauteur de la case */
+        background-color: rgb(230, 109, 65); /* Couleur de fond de la case */
+        border: 0,6px solid black; /* Bordure de la case */
+        padding: 20px; /* Espacement interne de la case */
+        color: #fff; /* Couleur du texte à l'intérieur de la case */
+        font-size: 16px; /* Taille de la police du texte */
+        text-align: center; /* Centrer le texte horizontalement */
+        border-radius: 100px;
+        background-position:50%;
+
+}
+
+.family{
+    background-image: url(bg-reviews.webp);
+    font-size: 76%;
+    font-display: 100px;
+    position: relative;
+    display: inline-block;
+}
+
+
+/*.family img {
+    display: block;
+    max-width: 100%;
+   /* height: auto;*/
+}
+.text-overlay {
+    background-image: url(bg-reviews.webp);
+  position: absolute;
+    top: 10px; /* Ajustez la position verticale du texte */
+    left: 10px; /* Ajustez la position horizontale du texte */
+    color: #000; /* Couleur du texte */
+    background-color: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+    padding: 0px; /* Espacement interne du texte */
+    font-size: 16px; /* Taille de la police du texte */
+}
+.famille{
+    background-image: url(bg-reviews.webp);
+    font-size: 150%;
+    width: 1329.6px;
+    height: 550px;
+}
+.text-block{
+    text-indent: 23px; /* Ajustez la valeur pour l'indentation souhaitée */
+    color: white;
+   
+}
+
+}
+.entete{
+    color: white;
+}
+.tra{
+    color: tomato;
+}
+.text-block {
+    display: table-cell; /* Utilisation de flexbox pour l'alignement horizontal */
+
+}
+
+.text {
+    margin-right: 37px; /* Espacement entre les textes */
+   
+}
+
+.avi{
+    
+        width: 350px; /* Largeur de la case */
+        height: 15px; /* Hauteur de la case */
+        background-color: rgb(230, 109, 65); /* Couleur de fond de la case */
+        border: 0,6px solid black; /* Bordure de la case */
+        padding: 20px; /* Espacement interne de la case */
+        color: #fff; /* Couleur du texte à l'intérieur de la case */
+        font-size: 16px; /* Taille de la police du texte */
+        text-align: center; /* Centrer le texte horizontalement */
+        border-radius: 100px;
+        background-position:50%;
+        
+        top: 80%; /* Centrer verticalement */
+        left: 90%; /* Centrer horizontalement */
+       transform: translate(140%, 55%); /* Ajuster la position au centre */
+    }
+    .NO{
+        color: rgb(119, 179, 23);
+        background-color:whitesmoke; /* Couleur de fond du pied de page */
+        padding: 4px; /* Espacement intérieur du pied de page */
+        text-align: justify; /* Centre le contenu horizontalement */
+        width: 1320px; /* Élargit le pied de la page*/
+        text-align: center;
+        height:1000px; /* Augmente la hauteur du pied de page à 100 pixels */
+        left:- 60px;
+        /*width: 130%;*/
+       right: 100px;
+       
+    }
+
+.en{
+/*CODE QUI M'A PERMIT DE POUSSER LA PHRASE VERS LA GAUCHE*/
+  position: relative;
+    margin-top: 0.5px;
+  
+  left:-34.4%; /* Ajustez la distance par rapport à la droite de la page */
+}
+
+.cadre{
+    background-color: white;
+    height: 350px;
+    width: 1000px;
+    left: -20px;
+padding: 12px;
+border-radius: 2px;
+border-style: inherit;
+max-width:1000px ;
+left: -20px; 
+margin-top: 30px; /* Ajustez la valeur pour l'espacement en haut souhaité */
+margin-left: 40px;
+transform: translate(20%, -8%); /* Ajuster la position au centre */
+
+}
+.photo-frame {
+    border: 2px #d5e0e7 ; /* Bordure autour de l'image */
+    padding: 6px; /* Ajouter un espace entre la bordure et l'image */
+    margin-top: 20px;
+ 
+   margin-left: 10px;
+    width: 180px;
+    height: 170px;
+    border-radius: 10px;
+} 
+.photo-frame img{
+    margin: -3px ; /* Ajustez la valeur pour réduire l'espace entre l'image et la bordure */
+border-radius: 10px;
+}
+.centre {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    grid-template-rows: repeat(2, 1fr); /* Deux lignes */
+    width: 400px; /* Largeur du cadre */
+    height: 400px; /* Hauteur du cadre */
+    border: 2px solid #3498db; /* Bordure autour du cadre */
+    width: 350px;
+    height: 174px;
+    margin-right: 200px;
+    margin-left: 195px;
+    margin-top: -178px;
+    border-radius: 20px;
+    border: 0.6px solid #d5e0e7;
+    padding:1px ;
+
+
+}
+.centre img{
+    margin: -3px;
+    border-radius: 20px;
+    
+}
+.section {
+    border: 1px solid #d5e0e7; /* Bordure autour de chaque section */
+    background-image: url(default.png);
+    border-radius: 20px;
+    
+    
+}
+
+.OU{
+    width: 100%;
+    background-image: url(default.png);
+    border-radius: 20px;
+    /*height: auto;*/
+    
+
+}
+.OU-container {
+    /*position: relative;*/
+    width: 400px; /* Largeur de la zone de l'image */
+}
+
+.text-overlay1{
+    
+            top: 10px; /* Ajustez la position verticale du texte */
+            left: 10px; /* Ajustez la position horizontale du texte */
+            font-size: 18px; /* Taille de la police du texte */
+            color: white; /* Couleur du texte */
+            
+}
+
+.yes{
+    background-image: url(default.png);
+height: 170px;
+border-radius: 20px;
+text-align: center;
+
+}
+.text{
+    text-align: center;
+    color: white;
+
+  /*  top: 20px;*/
+         left: 20px;
+         margin-bottom: 20px;
+            width: 100%;
+           /* background-color: rgba(255, 255, 255, 0.7); /* Fond transparent pour le texte */
+            padding: 60px;
+            
+}
+.le{
+    width: 350px; /* Largeur de la case */
+        height: 15px; /* Hauteur de la case */
+        background-color: white; /* Couleur de fond de la case */
+        border: 1px solid black; /* Bordure de la case */
+        padding: 20px; /* Espacement interne de la case */
+        color: black; /* Couleur du texte à l'intérieur de la case */
+        font-size: 16px; /* Taille de la police du texte */
+        text-align: center; /* Centrer le texte horizontalement */
+        border-radius: 100px;
+        background-position:50%;
+        
+        top: 80%; /* Centrer verticalement */
+        left: 70%; /* Centrer horizontalement */
+       transform: translate(50%, 50%); /* Ajuster la position au centre */
+
+}
+.blanc{
+    color: teal;
+    background-color: white;
+    width: 1325px; /* Largeur de la case */
+    height: 850px; /* Hauteur de la case */
+
+    font-size: 25px; /* Taille de la police du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+}
+.mescases{
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr); /* 5 cases par ligne */
+        grid-gap: 2px; /* Espacement entre les cases */
+    }
+
+    .case {
+        width: 90px;
+        height: 10px;
+        background-color:white;
+        border: 0.3px solid  #bbbbb2;
+        border-radius: 20px;
+        color: rgb(2, 24, 24);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 19px;
+    }
+    .ligne {
+        width: 83%; /* Largeur de la ligne */
+        height: 2px; /* Épaisseur de la ligne */
+       background-color: #bbbbb2; /* Couleur de la ligne */
+        margin: 2 auto; /* Centre la ligne horizontalement */
+        margin-left: 100px;
+    }
+    .plus{
+        background-position: 20px;
+        margin-top: 50px;
+        color: rgb(7, 131, 63);
+        margin-bottom: 40px;
+        
+    }
+/*pour creer des  cases de 12 aligner par 4 sur trois ligne */
+.petit{
+
+    display: grid;
+    grid-template-columns: repeat(4, 2fr); /* 5 cases par ligne */
+    grid-gap: 30px; /* Espacement entre les cases */
+    
+}
+
+.cases {
+    width: 199px;
+    height: 70px;
+    background-color:white;
+    border: 1px solid  #bbbbb2;
+    border-radius: 17px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1px;
+}
+
+
+
+.line{
+    width: 900px; /* Largeur de la ligne */
+    height: 0.0000001px; /* Épaisseur de la ligne réduite (ajustez selon vos besoins) */
+    background-color: #c0c5c9; /* Couleur de la ligne */
+}
+.mar{
+    width: 450px; /* Largeur de la case */
+    height: 15px; /* Hauteur de la case */
+    background-color: rgb(230, 109, 65); /* Couleur de fond de la case */
+    border: 0,6px solid black; /* Bordure de la case */
+    padding: 20px; /* Espacement interne de la case */
+    color: #fff; /* Couleur du texte à l'intérieur de la case */
+    font-size: 16px; /* Taille de la police du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+    border-radius: 100px;
+    background-position:50%;
+    
+    top: 80%; /* Centrer verticalement */
+    left: 90%; /* Centrer horizontalement */
+   transform: translate(90%, 55%); /* Ajuster la position au centre */
+}
+.cadre1{
+    background-color: rgb(110, 207, 159);
+    height:370px;
+    width: 1325px;
+}
+.ima{
+     
+        position: relative;
+        top: 60px;
+        right: 563px;
+        margin-left: 200px;
+    }
+
+    .ima:hover {
+        left: 100px; /* Déplace l'image de 100 pixels vers la droite lors du survol */
+        transition: left 1s; /* Ajoute une transition de 1 seconde pour une animation fluide */
+        margin-left: 60px;
+    }
+.mail{
+    width: 300px; /* Largeur de la case */
+    height: 7px; /* Hauteur de la case */
+    /*background-color: white;/* Couleur de fond de la case */
+    border: 1px solid white; /* Bordure de la case */
+    padding: 20px; /* Espacement interne de la case */
+    color: #fff; /* Couleur du texte à l'intérieur de la case */
+    font-size: 16px; /* Taille de la police du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+    border-radius: 100px;
+    background-position:40%;
+    
+    top: 80%; /* Centrer verticalement */
+    left: 90%; /* Centrer horizontalement */
+   transform: translate(10%, 135%); /* Ajuster la position au centre */
+}
+.e{
+    top: 100%; /* Centrer verticalement */
+    left: 90%; /* Centrer horizontalement */
+  /* transform: translate(10%, 15%); /* Ajuster la position au centre */
+   margin-right: 282px;
+   margin-top: -6px;
+   
+}
+.note{
+    margin-top:-26px;
+    margin-right: 70px;
+}
+.moi{
+    color: tomato;
+    font-size: 18px;
+
+}
+.second{
+    text-shadow: 400px;
+     margin: -60px;
+     padding-right: 350px;
+   font-size: 17px;
+color: white;
+     }
+.suivre{
+    color: tomato;
+}
+.téle{
+    color: white;
+    text-shadow: 400px;
+    margin: -10px;
+    padding: 40px;
+   padding-right: 1070px;
+  font-size: 17px;
+  bottom: 0;
+           /* left: 0;*/
+            width: 15%;
+            text-align: center;
+
+}
+.loca{
+    color: white;
+    text-shadow: 400px;
+    margin: -35px;
+    padding: 0.1px;
+   padding-right: 970px;
+  font-size: 17px;
+  bottom: 0;
+           /* left: 0;*/
+            width: 15%;
+            text-align: center;
+}
+.qtr{
+    margin: -30px;
+    padding: 8px;
+   padding-right: 1000px;
+  font-size: 17px;
+  bottom: 0;
+         color: white;
+         width: 26%;
+}
+.reseau{
+    margin: -30px;
+    padding: 8px;
+   padding-right: 1000px;
+  font-size: 17px;
+  bottom: 0;
+         color: white;
+         width: 86%;
+}
+.tout{
+    margin: -10px;
+    padding-top:-50px;
+}
+.mon{
+    margin: 10px;/*POUR POUSSER LE TEXTE VERS LE HAUT*/
+    padding-top:-50px;
+    width: 95.1%;
+}
+.fa{
+    margin: 10px;/*POUR POUSSER LE TEXTE VERS LE HAUT*/
+    padding-top:-50px;
+    width: 87.1%;
+}
+.condi{
+    margin: 10px;/*POUR POUSSER LE TEXTE VERS LE HAUT*/
+    padding-top:-50px;
+    width: 96%;
+}
+.suivre{
+    padding-top:-50px;
+    width: 93.2%;
+}
+.images {
+    display: flex;
+    justify-content: space-between; /* Crée de l'espace entre les images */
+}
+
+.image {
+    margin: 10px; /* Espacement entre les images (marge extérieure) */
+}
+.tubes{
+top: 40px;/*pour faire descendre une image*/
+    margin-right: 10px; /* Espace de 20 pixels à droite de chaque image */
+
+}
+.face{
+    margin-right: 10px; /* Espace de 20 pixels à droite de chaque image */
+}
+
+.twi{
+    
+    margin-right: 10px; /* Espace de 20 pixels à droite de chaque image */
+
+
+}
+.reseau{
+    padding-top:-50px;
+    width: 78%;
+}
+.troisieme{
+   /* text-shadow: 400px;*/
+     margin: -30px;/*place le texte en bas */
+     padding-right:-500px;
+   font-size: 17px;
+   width: 170%;/*POUR POUSSER LE TEXTE VERS LA GAUCHE*/
+   padding: 28px;
+color: white;
+top: 10px; /* Position verticale en haut (ajustez selon vos besoins) */
+left: 10px; /* Position horizontale à gauche (ajustez selon vos besoins) */
+text-shadow: 400px;
+margin: -300px;
+padding-right: 150px;
+font-size: 17px;
+color: white;
+
+     }
+.trois{
+    padding-top:-50px;
+    width:107%;
+    left: 29px;
+    color: white;
+    
+}     
+.sept{
+    width:101%;
+    margin-top:- 50px;
+}
+.quatre{
+    width:99.5%;
+}
+.cinq{
+    width:100%;
+}
+.end{
+    color: white;
+    background-color: rgb(10, 189, 103);
+    width: 1325px;
+    
+   
+}
+.pu{
+    text-align: left;
+    margin-top: -10px;
+}
+.ab {
+    text-align: right;
+  /*  margin-top: -30px;*/
+}
+/*LA PREMIERE PARTIE DE LA MAQUETTE*/
+.conteneur1{
+    background-color: white;
+    background-color: tomato;
+    border-radius: 4px 40px 40px 0px; /* Arrondi à gauche (ajustez selon vos besoins) */
+    width: 100px;
+    height: 60px;
+    background-position: center;
+    width: 210px; /* Largeur de la case */
+    height: 55px; /* Hauteur de la case */
+    background-color: rgb(226, 109, 66); /* Couleur de fond de la case */
+    border: 0,6px solid black; /* Bordure de la case */
+    padding: 10px; /* Espacement interne de la case */
+    color: #fff; /* Couleur du texte à l'intérieur de la case */
+    font-size: 16px; /* Taille de la police du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+   /* border-radius: 100px;*/
+    background-position:30%;
+    
+    
+    top: 80%; /* Centrer verticalement */
+    left: 90%; /* Centrer horizontalement */
+   transform: translate(40%, 55%); /* Ajuster la position au centre */
+   font-size: 10px;
+   
+   margin-left: 20px;
+}
+.all{
+    background-color: rgb(16,196,164);
+    height: 950px;
+}
+.picture1{
+    transform: translate-(24%, 5%); /* Ajuster la position au centre */
+    position: absolute;
+    top: 10px; /* Position verticale par rapport au haut (ajustez selon vos besoins) */
+    left: 4px; /* Position horizontale par rapport à la gauche (ajustez selon vos besoins) */
+}
+.livraison{
+        font-size: 8px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: darkgreen;
+        
+}
+.days{
+    font-size: 16px;
+}
+.commande{
+    color: rgba(139, 0, 0, 0.726);
+}
+.text_hors{
+    transform: translate-(24%, 5%);
+    margin-top: 70px;
+    left: 60px;
+    text-align: justify;
+}
+.tete{
+    background-color: rgb(220, 239, 240);
+    height: 45px;
+    margin-top: -20px;
+
+}
+.dra{
+    text-align: right;
+    margin-top: -10px;
+}
+.TEL{
+    left: 60px;
+    top:- 10px;
+}
+.grand{
+    color: #000;
+    font-size: 15px;
+}
+.agree{
+    color: #c45211;
+    font-size: 18px;
+}
+.occ{
+    color: rgb(83, 77, 77);
+    font-size: 10px;
+}
+.bus{
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr); /* 5 cases par ligne */
+    grid-gap: 20px; /* Espacement entre les cases */
+    margin-top: 40px;
+    height: 10px;
+   
+}
+
+.caises {
+    width: 169px;
+    height: 50px;
+    background-color:white;
+    border: 1px solid  #bbbbb2;
+    border-radius: 17px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    background-color: rgb(247, 75, 45);
+     border-radius: 10px;
+     
+}
+.caise {
+    width: 169px;
+    height: 50px;
+    background-color:white;
+    border: 1px solid  #070707;
+    border-radius: 17px;
+    color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: white;
+}
+.mage{
+margin-right: 30px;
+}
+.qua{
+    color: black;
+}
+.re{
+    color: white;
+}
+.ligneverticale {
+    border-left: 1px solid white; /* Largeur de la ligne et couleur (ajustez selon vos besoins) */
+    height: 50px; /* Hauteur de la ligne (ajustez selon vos besoins) */
+
+    }
+    .img1{
+    left: 26px;
+    margin-right: 20px;
+    }
+    .lii{
+        color: black;
+        margin-right: 0px;
+        background-position: top;
+    }
+    .cc{
+        color: #000;
+    }
+    .img2{
+        margin-right: 30px;
+    }
+.table{
+    background-color: rgba(50, 145, 146, 0.342);
+    height: 50px;
+    width: 150px;
+    margin-left: 800px;
+    padding-top: 30px;
+    margin-top: -270px;
+    text-align: center;
+    font-size:12px ;
+    color: rgb(7, 131, 63);
+}
+.loo{
+    
+    font-size: 14px;
+}
+.conteneur3 {
+    width: 400px; /* Largeur du conteneur */
+    height: 400px; /* Hauteur du conteneur */
+    background-color: white; /* Couleur de fond */
+    border: 2px solid #000; /* Bordure de 2 pixels (modifiable) */
+    margin-left: 400px;
+    position:relative ;
+    margin-top: -70px;
+    font-size: 13px;
+    color: green;
+    text-align: initial;  
+}
+.fabriquant{
+    margin-left: 20px;
+
+}
+
+.mini-case {
+    width: 140px; /* Largeur de la mini case */
+    height: 35px; /* Hauteur de la mini case */
+    background-color: whitesmoke; /* Couleur de fond de la mini case */
+    border: 0.7px solid #000; /* Bordure de la mini case (modifiable) */
+    margin-left: 20px;
+    font-size: 13px;
+    color: #000;
+    }
+    .minicar{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .tr{
+        margin-left: 60px;
+    }
+    .cal{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .mini-ca{
+        width: 170px; /* Largeur de la mini case */
+    height: 31px; /* Hauteur de la mini case */
+    background-color: whitesmoke; /* Couleur de fond de la mini case */
+    border: 0.7px solid #000; /* Bordure de la mini case (modifiable) */
+    margin-left: 80px;
+    font-size: 12px;
+    color: #000;
+    
+    }
+    .mini-ca{
+        margin-left: 210px;
+    top: -50px;
+    margin-top: -236px;
+        
+    }
+  .model{
+      margin-left: 200px;
+      margin-top:-220px ;
+  }
+    .ho{
+        margin-top: -240px;
+        margin-left: 200px;
+    }
+    .modele{
+        margin-left: 20px;
+    }
+.money{
+    margin-left: 140px;
+}
+.mini-c{
+    width: 139px; /* Largeur de la mini case */
+    height: 35px; /* Hauteur de la mini case */
+    background-color: whitesmoke; /* Couleur de fond de la mini case */
+    border: 0.7px solid #000; /* Bordure de la mini case (modifiable) */
+    margin-left: 80px;
+    font-size: 12px;
+    color: #000;
+}
+.max{
+    margin-left: 80px;
+}
+.mome{
+    margin-top: 10px;
+}
+.datefin{
+    margin-left: 140px;
+}
+.datef{
+    width: 139px; /* Largeur de la mini case */
+    height: 35px; /* Hauteur de la mini case */
+    background-color: whitesmoke; /* Couleur de fond de la mini case */
+    border: 0.7px solid #000; /* Bordure de la mini case (modifiable) */
+    margin-left: 80px;
+    font-size: 12px;
+    color: #000;
+
+}
+.findate{
+    margin-left: 80px;
+}
+.TEL{
+    margin-top: 10px;
+}
+.ques{
+    margin-top:- 70px;
+}
+.cont-4{
+    background-color: white;
+    background-color: tomato;
+  /*  border-radius: 4px 40px 40px 0px; /* Arrondi à gauche (ajustez selon vos besoins) */
+    width: 130px;
+    height: 60px;
+    background-position: center;
+    width: 340px; /* Largeur de la case */
+    height: 55px; /* Hauteur de la case */
+    background-color: rgb(226, 109, 66); /* Couleur de fond de la case */
+    border: 0,6px solid black; /* Bordure de la case */
+    padding: 10px; /* Espacement interne de la case */
+    color: #fff; /* Couleur du texte à l'intérieur de la case */
+    font-size: 16px; /* Taille de la police du texte */
+    text-align: center; /* Centrer le texte horizontalement */
+   /* border-radius: 100px;*/
+    background: position 10%;
+    top: 80%; /* Centrer verticalement */
+    left: 90%; /* Centrer horizontalement */
+   transform: translate(3%, 45%); /* Ajuster la position au centre */
+   font-size: 10px;
+   
+   margin-left: -130
+   px;
+   text-align: center;
+}
